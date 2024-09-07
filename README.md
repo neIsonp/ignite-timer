@@ -1,50 +1,67 @@
-# React + TypeScript + Vite
+<h1 align="center">
+    <img alt="Ignite Logo" title="Ignite Logo" src="./.github/images/logo-ignite.svg" />
+    Ignite Timer
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+The Ignite Timer is a project that allows users to time their daily tasks and view a history of all completed tasks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Objectives**: The main goals of this application were to train the use of the following tools/technologies:
 
-## Expanding the ESLint configuration
+- Handling dates and times using the `date-fns` library
+- Using forms with `React Hook Form`
+- Implementing dark and light themes with `Styled Components`
+- Utilizing the React `useReducer` hook to manage complex state changes
+- And more...
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* If you like the project, please give it a star⭐ and share it to help me out 👍, and follow me to see more of my projects.
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Technologies
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+This project was developed with the following technologies:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+✔ [Vite](https://vitejs.dev/)
+<br/>
+✔ [ReactJS](https://reactjs.org/)
+<br/>
+✔ [TypeScript](https://www.typescriptlang.org/)
+<br/>
+✔ [Styled Components](https://styled-components.com/docs)
+<br/>
+✔ [Phosphor Icons](https://phosphoricons.com/)
+<br/>
+✔ [date-fns](https://date-fns.org/docs/Getting-Started)
+<br/>
+✔ [React Hook Form](https://react-hook-form.com/)
+<br/>
+✔ [Zod](https://github.com/colinhacks/zod)
+<br/>
+✔ [React Router](https://reactrouter.com/en/v6.3.0/getting-started/overview)
+<br/>
+✔ [Immer](https://github.com/immerjs/immer)
+<br/>
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🎨 Layout
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+You can view the project layout through [this link](<https://www.figma.com/file/nCeslCY32mG7newtwTpuks/Ignite-Timer-(Community)?node-id=11%3A599>). You will need a [Figma](https://www.figma.com/) account to access it.
+
+## 📋 Clipboard (Prerequisites)
+
+Before downloading the project, you will need to have the following tools installed on your machine:
+
+- [Git](https://git-scm.com)
+- [NodeJS](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
+
+## ⚙ Settings
+
+Here are the commands to download and run the project on your machine:
+
+- `git clone https://github.com/neIsonp/ignite-timer`: clone this repository.
+- `cd ignite-timer`: navigate to the project folder in the terminal.
+- `npm i`: to install the project dependencies.
+- `npm run dev`:
+  - Runs the project in development mode/environment.
+  - Open [http://localhost:3000](http://localhost:3000) to view the project running in the browser.
+  - The page will reload if you make edits to the code, and any errors will be shown in the console.
